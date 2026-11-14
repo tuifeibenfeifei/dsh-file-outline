@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "File outline",
+    "description": "Map a large text file before reading it: the heading tree with line ranges, the size tier, and where to read next.",
+    "detail": "docs/DETAIL.md"
+  }
+}

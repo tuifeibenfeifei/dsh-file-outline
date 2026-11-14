@@ -1,0 +1,18 @@
+# Node
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+
+# Build artifacts
+*.tgz
+dist/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test scratch
+.nyc_output/
+coverage/

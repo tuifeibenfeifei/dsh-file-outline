@@ -1,0 +1,4 @@
+# dsh-file-outline bundle patch — one Host-only plugin row.
+- insert:
+    - id: file-outline
+      name: 'dsh-file-outline'

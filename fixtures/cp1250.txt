@@ -1,0 +1,7 @@
+# Dokument polski
+
+Ten plik zosta³ napisany w jêzyku polskim. Aby sprawdziæ wykrywanie kodowania, przygotowaliœmy tekst o odpowiedniej d³ugoœci. Polski tekst zawiera znaki diakrytyczne, takie jak ¹, æ, ê, ³, ñ, ó, œ, Ÿ oraz ¿.
+
+## Przyk³ad nag³ówka
+
+Kontynuacja tekstu g³ównego. SprawdŸ, czy nie ma uszkodzonych znaków.

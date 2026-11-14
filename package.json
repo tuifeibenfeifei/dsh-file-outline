@@ -1,0 +1,46 @@
+{
+  "name": "dsh-file-outline",
+  "version": "0.6.0",
+  "private": true,
+  "type": "module",
+  "displayName": "File outline",
+  "description": "Map a large text file before reading it: heading tree with line ranges, size tier, and where to read next. Read-only, streaming, deterministic, no LLM calls.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "locale/*.json",
+    "docs/DETAIL.md",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "outline",
+    "large-file",
+    "markdown",
+    "navigation"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "os": [
+    "win32"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.5"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
